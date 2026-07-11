@@ -1,4 +1,9 @@
 import streamlit as st
+st.set_page_config(
+    page_title="Lost and Found Matcher",
+    page_icon="🔍",
+    layout="wide"
+)
 import pandas as pd
 
 st.title("🔍 Lost & Found Portal")
