@@ -22,6 +22,17 @@ if not os.path.exists("found_items.csv"):
 
 st.title("🔍 Lost & Found Portal")
 
+st.write(
+    """
+    Welcome to the Lost & Found Matcher! 👜📱
+
+    This website helps students report lost items,
+    report found items, and search for missing belongings easily.
+
+    Use the sidebar to get started 👈
+    """
+)
+
 menu = st.sidebar.selectbox(
     "Choose Option",
     [
