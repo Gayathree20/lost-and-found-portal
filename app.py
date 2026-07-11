@@ -1,4 +1,5 @@
 import streamlit as st
+import os 
 st.set_page_config(
     page_title="Lost and Found Matcher",
     page_icon="🔍",
